@@ -121,7 +121,7 @@ if __name__ == "__main__":
     client = TClient();
     print "connected"
     """ GET methods """
-    print client.get_movie("From a Mess to the Masses (2010)")
+    print client.get_movie("The Dark Knight (2008)")
     print "top movies:"
     for title, rating in client.get_top_movies("Action"):
         print "\t", title, rating
